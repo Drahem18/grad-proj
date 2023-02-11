@@ -1,0 +1,69 @@
+body{
+  background:#eee;
+  font-family: sans-serif;
+	font-family: 'Kanit', sans-serif;
+	font-family: 'Roboto Slab', serif;
+}
+
+#side-nav{
+  background: #052c54;
+  min-width: 250px;
+  transition: all 0.3s;
+}
+.content{
+  min-height: 100vh;
+  width: 100%;
+}
+hr .h-color{
+  background: #eee;
+}
+hr{
+  margin-top: 0 px;
+  margin-bottom: 0 px;
+  background-color: aliceblue;
+ 
+}
+
+.sidebar li.active{
+  background: #f5c115;
+  border-radius: 8px;
+  
+}
+.sidebar li.active a ,.sidebar li.active a:hover{
+  color: #052c54;
+   
+}
+.sidebar li a{
+  color: #eee;
+}
+.header-box{
+  background-color: #f5c115;
+  max-height: 50px;
+  margin-bottom: 5px;
+}
+.content .navbar{
+  background-color: #f5c115;
+  color: #eee;
+  max-height: 50px;
+}
+.navbar-brand{
+  color: #052c54;
+}
+@media (max-width:767px){
+  #side-nav{
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1; 
+
+  }
+  #side-nav.active{
+    margin-left: 0;
+  }
+}
+@media (min-width:768px){
+  .navbar{
+    visibility: hidden;
+  }
+  
+}
