@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<!-- This script got from frontendfreecode.com -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,500;0,600;1,400;1,500&family=Roboto+Slab:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<div class="wrapper d-flex align-items-stretch">
+    
+    <nav id="sidebar" class="">
+        <div class="custom-menu">
+            <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                <i class="fa fa-bars"></i>
+                
+            </button>
+        </div>
+        <div class="p-4">
+            <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
+                <h1 class="fs-4"><span class="bg-white text-dark rounded shadow px-2">CL</span> <span class="text-white">SMSdfdrsfrefe</span></h1>               
+            </div>
+            
+            <ul class="list-unstyled listItem px-3">
+                <li class="active"><a href="#"class="text-decoration-none px-3 py-2 d-block ">Dashboard</a></li><hr class="mb-0 mt-0 bg-white">
+                <!-- <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Students</a></li><hr class="mb-0 mt-0 bg-white" >
+                 -->
+                <li class="dropdown" >
+                    <a href="dashboard.html" class="nav-link dropdown-toggle text-truncate" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class=""></i>Students
+                    </a>
+                    <ul class="dropdown-menu st-option" aria-labelledby="dropdown">
+                        <li><a class="dropdown-item" href="#">All Students</a></li>
+                        <li><a class="dropdown-item" href="#">Student details</a></li>
+                        <li><a class="dropdown-item " href="#">Add || Remove </a></li>
+                        <li><a class="dropdown-item" href="#">Prompot</a></li>
+                        
+                    </ul>
+                </li>
+                <hr class="mb-0 mt-0 bg-white" >
+
+
+
+                
+                <!-- ////////////////////////////////////////// -->
+
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Staff</a></li><hr class="mb-0 mt-0 bg-white" >
+                <li class="" ><a href="#" class="text-decoration-none px-3 py-2  d-block"> Libirary</a></li><hr class="mb-0 mt-0 bg-white" >
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Courses</a></li><hr class="mb-0 mt-0 bg-white" >
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Attendence</a></li><hr class="mb-0 mt-0 bg-white" >
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Exams</a></li><hr class="mb-0 mt-0 bg-white" >
+                <li class=""><a href="#" class="text-decoration-none px-3 py-2  d-block"> Notice Board</a></li>
+
+            </ul>
+
+           
+        </div>
+    </nav>
+
+    <!-- Page Content  --> 
+    <div class="navbar-light  py-0 ">
+         
+    </div>
+    <div class="home">
+                <h2>Admin Dashboard</h2>
+               
+                  
+            </div>
+        </div>
+   </div>
+
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="sc.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="bootstrap/jquery-3.6.0.min_2.js"></script>
+   
+<script>
+    
+    
+
+    (function ($) {
+        "use strict";
+        var fullHeight = function () {
+            $(".js-fullheight").css("height", $(window).height());
+            $(window).resize(function () {
+                $(".js-fullheight").css("height", $(window).height());
+            });
+        };
+        fullHeight();
+        $("#sidebarCollapse").on("click", function () {
+            $("#sidebar").toggleClass("active");
+        });
+    })(jQuery);
+
+
+
+</script>
+</body>
+</html>
